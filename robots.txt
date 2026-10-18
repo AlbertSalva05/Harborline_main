@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harborline.example.com/sitemap.xml
