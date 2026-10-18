@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Load triage board | Harborline</title>
+<meta name="description" content="Every board posting lands in one queue, deduped and priced against your last 90 days on the lane instead of a national average." />
+<meta name="robots" content="index,follow" />
+<link rel="canonical" href="https://harborline.example.com/platform/load-triage/" />
+<meta name="theme-color" content="#14181D" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Harborline" />
+<meta property="og:title" content="Load triage board | Harborline" />
+<meta property="og:description" content="Every board posting lands in one queue, deduped and priced against your last 90 days on the lane instead of a national average." />
+<meta property="og:url" content="https://harborline.example.com/platform/load-triage/" />
+<meta property="og:image" content="https://harborline.example.com/assets/og-image.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta property="og:image:alt" content="Harborline wordmark with the headline Cover every load before lunch on a dark ink background" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Load triage board | Harborline" />
+<meta name="twitter:description" content="Every board posting lands in one queue, deduped and priced against your last 90 days on the lane instead of a national average." />
+<meta name="twitter:image" content="https://harborline.example.com/assets/og-image.png" />
+<link rel="icon" href="../../assets/logo/logo-mark.svg" type="image/svg+xml" />
+<link rel="icon" href="../../assets/logo/favicon-32.png" type="image/png" sizes="32x32" />
+<link rel="apple-touch-icon" href="../../assets/logo/apple-touch-icon.png" />
+<link rel="manifest" href="../../site.webmanifest" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600;700&amp;family=Geist+Mono:wght@400;500&amp;family=Instrument+Serif&amp;display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../../css/styles.css?v=7" />
+<script src="../../js/theme.js?v=5"></script>
+<link rel="preload" href="../../js/main.js?v=6" as="script" />
+</head>
+<body data-route="platform/load-triage" data-root="../../">
+<a class="hl-skip" href="#main">Skip to content</a>
+
+<header class="hl-navbar is-fixed" id="top">
+  <div class="hl-navbar__inner">
+    <a class="hl-navbar__brand" href="../../index.html" aria-label="Harborline, home"><svg class="hl-navbar__mark" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><rect x="59" y="36" width="42" height="184" rx="6" fill="#E4E9ED"/><rect x="155" y="36" width="42" height="184" rx="6" fill="#E4E9ED"/><rect x="14" y="108" width="228" height="34" rx="17" fill="#C2913A"/></svg>Harborline</a>
+
+    <nav class="hl-navbar__nav" aria-label="Main">
+      <ul class="hl-navbar__list">
+      <li class="hl-sub" data-sub>
+        <button class="hl-navbar__link hl-sub__btn is-current" type="button" id="sub-platform-btn" aria-expanded="false" aria-controls="sub-platform">Platform<svg class="hl-sub__chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></button>
+        <ul class="hl-sub__panel" id="sub-platform" aria-label="Platform" hidden>
+          <li><a class="hl-sub__link" href="../../platform/load-triage/index.html" aria-current="page"><svg class="hl-sub__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="5" width="14" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect><rect class="hl-icon-bar" x="1" y="10.75" width="22" height="2.5" rx="1.25"></rect></svg><span class="hl-sub__text"><span class="hl-sub__title">Load triage</span><span class="hl-sub__desc">One queue for every board posting</span></span></a></li>
+          <li><a class="hl-sub__link" href="../../platform/carrier-vetting/index.html"><svg class="hl-sub__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="5.5" r="3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><rect class="hl-icon-bar" x="2" y="10.75" width="20" height="2.5" rx="1.25"></rect></svg><span class="hl-sub__text"><span class="hl-sub__title">Carrier vetting</span><span class="hl-sub__desc">Authority and insurance checked before you confirm</span></span></a></li>
+          <li><a class="hl-sub__link" href="../../platform/rate-confirmations/index.html"><svg class="hl-sub__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6" y="3" width="12" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect><rect class="hl-icon-bar" x="2" y="10.75" width="20" height="2.5" rx="1.25"></rect></svg><span class="hl-sub__text"><span class="hl-sub__title">Rate confirmations</span><span class="hl-sub__desc">Send, e-sign and file from the load card</span></span></a></li>
+          <li><a class="hl-sub__link" href="../../platform/detention/index.html"><svg class="hl-sub__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M12 7.5V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><rect class="hl-icon-bar" x="1" y="10.75" width="22" height="2.5" rx="1.25"></rect></svg><span class="hl-sub__text"><span class="hl-sub__title">Detention capture</span><span class="hl-sub__desc">Dock time turned into line items</span></span></a></li>
+          <li class="hl-sub__foot"><a class="hl-sub__all" href="../../index.html#platform">Platform overview</a></li>
+        </ul>
+      </li>
+      <li><a class="hl-navbar__link" href="../../index.html#pricing">Pricing</a></li>
+      <li class="hl-sub" data-sub>
+        <button class="hl-navbar__link hl-sub__btn" type="button" id="sub-company-btn" aria-expanded="false" aria-controls="sub-company">Company<svg class="hl-sub__chev" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M6 9l6 6 6-6"/></svg></button>
+        <ul class="hl-sub__panel" id="sub-company" aria-label="Company" hidden>
+          <li><a class="hl-sub__link" href="../../company/customers/index.html"><span class="hl-sub__text"><span class="hl-sub__title">Customers</span><span class="hl-sub__desc">Brokerages running Harborline</span></span></a></li>
+          <li><a class="hl-sub__link" href="../../company/careers/index.html"><span class="hl-sub__text"><span class="hl-sub__title">Careers</span><span class="hl-sub__desc">Working on Harborline</span></span></a></li>
+          <li><a class="hl-sub__link" href="../../company/security/index.html"><span class="hl-sub__text"><span class="hl-sub__title">Security</span><span class="hl-sub__desc">Access, audit trail and your data</span></span></a></li>
+
+        </ul>
+      </li>
+      <li><a class="hl-navbar__link" href="../../settings/index.html">Settings</a></li>
+      </ul>
+    </nav>
+
+    <div class="hl-navbar__actions">
+      <a class="hl-btn hl-btn--quiet" href="../../sign-in/index.html">Sign in</a>
+    </div>
+
+    <button class="hl-navbar__toggle" type="button" id="navToggle" aria-expanded="false" aria-controls="navDrawer" aria-label="Open menu">
+      <span class="hl-navbar__bars" aria-hidden="true"><span></span><span></span><span></span></span><span aria-hidden="true">Menu</span>
+    </button>
+  </div>
+
+  <nav class="hl-navbar__drawer" id="navDrawer" aria-label="Main" hidden>
+    <p class="hl-drawer__head">Platform</p>
+    <ul class="hl-drawer__list"><li><a class="hl-navbar__drawer-link" href="../../platform/load-triage/index.html" aria-current="page">Load triage</a></li><li><a class="hl-navbar__drawer-link" href="../../platform/carrier-vetting/index.html">Carrier vetting</a></li><li><a class="hl-navbar__drawer-link" href="../../platform/rate-confirmations/index.html">Rate confirmations</a></li><li><a class="hl-navbar__drawer-link" href="../../platform/detention/index.html">Detention capture</a></li></ul>
+    <ul class="hl-drawer__list hl-drawer__list--top"><li><a class="hl-navbar__drawer-link" href="../../index.html#pricing">Pricing</a></li><li><a class="hl-navbar__drawer-link" href="../../settings/index.html">Settings</a></li><li><a class="hl-navbar__drawer-link" href="../../sign-in/index.html">Sign in</a></li></ul>
+    <p class="hl-drawer__head">Company</p>
+    <ul class="hl-drawer__list"><li><a class="hl-navbar__drawer-link" href="../../company/customers/index.html">Customers</a></li><li><a class="hl-navbar__drawer-link" href="../../company/careers/index.html">Careers</a></li><li><a class="hl-navbar__drawer-link" href="../../company/security/index.html">Security</a></li></ul>
+  </nav>
+</header>
+<div class="hl-backdrop" id="navBackdrop" hidden></div>
+
+<main id="main" tabindex="-1">
+  <section class="hl-pagehead">
+    <div class="hl-container hl-pagehead__inner">
+      <svg class="hl-page__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="5" y="5" width="14" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect><rect class="hl-icon-bar" x="1" y="10.75" width="22" height="2.5" rx="1.25"></rect></svg>
+      <p class="hl-eyebrow hl-eyebrow--brass">Platform</p>
+      <h1 class="hl-page__title">Load triage board</h1>
+      <p class="hl-lead hl-lead--inverse">Every board posting lands in one queue, deduped and priced against your last 90 days on the lane instead of a national average.</p>
+      <div class="hl-hero__actions"><a class="hl-btn hl-btn--brass hl-btn--lg" href="../../index.html#pilot">Start 14-day pilot</a><a class="hl-btn hl-btn--outline-inverse hl-btn--lg" href="../../index.html#pricing">See plans</a></div>
+    </div>
+  </section>
+  <section class="hl-section hl-section--canvas">
+    <div class="hl-container hl-pagegrid">
+      <div class="hl-prose">
+        <h2>What it does</h2>
+        <ul><li>Postings from DAT and Truckstop arrive in one queue through read-only credentials.</li><li>Duplicate postings for the same load are merged before a dispatcher sees them.</li><li>Each load shows a suggested rate from your own history on that lane.</li><li>Loads you lose stay on the board as not covered, with the quote history attached, so the next quote on that lane starts from real numbers.</li></ul>
+        <h2>Where it fits on the board</h2>
+        <p>Triage is the first step on the board. A load you pick moves straight to carrier vetting, then to a rate confirmation, without leaving the load card.</p>
+        <h2>Included in</h2>
+        <p>Dispatch, Brokerage and Network. <a href="../../index.html#pricing">Compare plans</a>.</p>
+      </div>
+      <aside class="hl-related" aria-labelledby="rel-h">
+        <h2 class="hl-related__head" id="rel-h">Other parts of the board</h2>
+        <ul class="hl-related__list"><li><a class="hl-related__link" href="../../platform/carrier-vetting/index.html"><svg class="hl-related__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="5.5" r="3" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M5.5 20.5a6.5 6.5 0 0 1 13 0" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><rect class="hl-icon-bar" x="2" y="10.75" width="20" height="2.5" rx="1.25"></rect></svg><span><span class="hl-related__title">Carrier vetting</span><span class="hl-related__desc">Authority and insurance checked before you confirm</span></span></a></li><li><a class="hl-related__link" href="../../platform/rate-confirmations/index.html"><svg class="hl-related__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="6" y="3" width="12" height="18" rx="2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></rect><rect class="hl-icon-bar" x="2" y="10.75" width="20" height="2.5" rx="1.25"></rect></svg><span><span class="hl-related__title">Rate confirmations</span><span class="hl-related__desc">Send, e-sign and file from the load card</span></span></a></li><li><a class="hl-related__link" href="../../platform/detention/index.html"><svg class="hl-related__icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="7.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></circle><path d="M12 7.5V10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path><rect class="hl-icon-bar" x="1" y="10.75" width="22" height="2.5" rx="1.25"></rect></svg><span><span class="hl-related__title">Detention capture</span><span class="hl-related__desc">Dock time turned into line items</span></span></a></li></ul>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="hl-footer" id="site-footer">
+  <button class="hl-totop hl-totop--docked" type="button" data-totop aria-label="Back to top"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg></button>
+  <div class="hl-container hl-grid hl-grid--footer">
+    <div class="hl-footer__brandcol">
+      <a class="hl-footer__brand" href="../../index.html"><svg class="hl-navbar__mark" viewBox="0 0 256 256" aria-hidden="true" focusable="false"><rect x="59" y="36" width="42" height="184" rx="6" fill="#E4E9ED"/><rect x="155" y="36" width="42" height="184" rx="6" fill="#E4E9ED"/><rect x="14" y="108" width="228" height="34" rx="17" fill="#C2913A"/></svg>Harborline</a>
+      <p class="hl-footer__blurb">Freight operations software for regional brokerages. Columbus, Ohio.</p>
+    </div>
+    <nav class="hl-footer__col" aria-labelledby="ft-platform">
+      <h2 class="hl-footer__head" id="ft-platform">Platform</h2>
+      <a href="../../platform/load-triage/index.html">Load triage</a>
+      <a href="../../platform/carrier-vetting/index.html">Carrier vetting</a>
+      <a href="../../platform/rate-confirmations/index.html">Rate confirmations</a>
+      <a href="../../platform/detention/index.html">Detention capture</a>
+    </nav>
+    <nav class="hl-footer__col" aria-labelledby="ft-company">
+      <h2 class="hl-footer__head" id="ft-company">Company</h2>
+      <a href="../../company/customers/index.html">Customers</a>
+      <a href="../../company/careers/index.html">Careers</a>
+      <a href="../../company/security/index.html">Security</a>
+    </nav>
+    <div class="hl-footer__col">
+      <h2 class="hl-footer__head">Contact</h2>
+      <a href="tel:+16145550142">(614) 555-0142</a>
+      <a href="mailto:desk@harborline.com">desk@harborline.com</a>
+      <p class="hl-footer__addr">312 Marconi Blvd, Suite 400<br />Columbus, OH 43215</p>
+    </div>
+  </div>
+  <div class="hl-container hl-footer__legal">
+    <span>© 2026 Harborline Systems, LLC</span>
+    <nav class="hl-footer__legalnav" aria-label="Legal"><a href="../../legal/terms/index.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M14 3H6v18h12V7z"/><path d="M14 3v4h4"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>Terms and conditions</a><a href="../../legal/privacy/index.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg>Privacy policy</a><button class="hl-footer__cookie" type="button" data-cookie-open><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 3a9 9 0 1 0 9 9 4 4 0 0 1-5-5 4 4 0 0 1-4-4z"/><path d="M8.5 10.5v.01"/><path d="M15.5 15.5v.01"/><path d="M10.5 16v.01"/></svg>Cookie settings</button><a href="../../legal/dpa/index.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>DPA</a><a href="../../legal/accessibility/index.html"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="4.5" r="1.5"/><path d="M5 8.5l7 1.5 7-1.5"/><path d="M12 10v5"/><path d="M9 21l3-6 3 6"/></svg>Accessibility</a></nav>
+  </div>
+</footer>
+<button class="hl-totop hl-totop--floating" type="button" id="toTop" data-totop aria-label="Back to top" aria-hidden="true" tabindex="-1"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 19V5"/><path d="M6 11l6-6 6 6"/></svg></button>
+<div class="hl-modal" id="cookieModal" hidden>
+  <div class="hl-modal__box" role="dialog" aria-modal="true" aria-labelledby="ck-title" aria-describedby="ck-desc">
+    <div class="hl-modal__head"><h2 class="hl-modal__title" id="ck-title">Cookie settings</h2><button class="hl-modal__close" type="button" data-cookie-close aria-label="Close cookie settings"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M6 6l12 12"/><path d="M18 6L6 18"/></svg></button></div>
+    <p class="hl-modal__desc" id="ck-desc">This site sets no cookies and runs no analytics or ads. It keeps a few items in this browser so the site looks the way you left it. Choose what it may keep.</p>
+    <fieldset class="hl-modal__options"><legend class="hl-sr">Storage choices</legend>
+      <label class="hl-modal__opt" for="ck-essential"><input type="checkbox" id="ck-essential" checked="checked" disabled="disabled" /><span><span class="hl-modal__opt-title">Essential, always on</span><span class="hl-modal__opt-desc">Remembers these choices.</span></span></label>
+      <label class="hl-modal__opt" for="ck-display"><input type="checkbox" id="ck-display" /><span><span class="hl-modal__opt-title">Display settings</span><span class="hl-modal__opt-desc">Theme and text size from the Settings page. Turning this off deletes the saved copy.</span></span></label>
+    </fieldset>
+    <div class="hl-modal__actions"><button class="hl-btn hl-btn--primary hl-btn--lg" type="button" data-cookie-save>Save choices</button><button class="hl-btn hl-btn--ghost hl-btn--lg" type="button" data-cookie-close>Cancel</button><a class="hl-modal__link" href="../../legal/privacy/index.html">Privacy policy</a></div>
+  </div>
+</div>
+<div class="hl-toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="../../js/main.js?v=6" defer="defer"></script>
+</body>
+</html>
